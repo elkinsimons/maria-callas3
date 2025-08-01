@@ -1,0 +1,22 @@
+// MEDIA QUERY
+
+@use "../variables/variables" as *;
+@use "../variables/mixin" as *;
+
+// @use "../variables/listas";
+
+//MQ Mobile
+@media only screen and (max-width: 640px) {
+    header{
+        display: grid;
+        grid-column: auto;
+    }
+    main, footer...}
+
+
+//MQ Tablet
+// @media only screen and (min-width: 768px) {header, main, footer...}
+
+
+//MQ Desktop
+// @media only screen and (min-width: 1200px) {header, main, footer...}

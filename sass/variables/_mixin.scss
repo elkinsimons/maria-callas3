@@ -1,0 +1,70 @@
+// Mixin Grid
+// index, biografía, videoteca: grid-container grid-header grid-main grid-footer
+/* propiedades de grid  */ 
+
+/* .grid-container {
+  display: grid;
+  grid-template: 2/3;
+  }
+*/
+
+@mixin grid-body {
+    display: grid;
+    grid-template-rows: 20vh 70vh 10vh;
+    align-content: center;
+    justify-content: center;
+    row-gap: 10px 50px;
+    }
+
+
+/*
+//Mixin FlexBox
+// index: flexbox-container div/flexbox-item img/flexbox-item
+// propiedades de flexbox
+// videoteca: flexbox-videoteca item-videoteca
+// biografia: flexbox-galeria item-galeria
+
+/* Propiedades de flexbox:
+
+.contenedor{
+display: flex;
+justify-content:
+align-items:
+flex-direction:
+flex-flow:
+flex-wrap:
+align-content:
+}
+
+.contenido{
+padding: 10px
+marging:
+
+align-self
+order
+
+flex
+
+flex-grow
+flex-shrink
+flex-basis
+}
+
+*/
+
+
+//Mixin img
+//
+//
+//
+
+//Mixin iframe
+//
+
+// Mixin Box Model
+/*                 (ancho) width: 200px;
+                   (alto) height: 100px;
+        (fondo) background-color: lightgray;
+                         padding: 20px;
+                          border: 5px solid black;
+                          margin: 30px; */
