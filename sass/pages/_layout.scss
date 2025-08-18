@@ -5,18 +5,54 @@
 
 // @use "../variables/listas";
 
-//MQ Mobile
-@media only screen and (max-width: 640px) {
-    header{
-        display: grid;
-        grid-column: auto;
-    }
-    main, footer...}
+/* Media Queries MOBILE */
+@media only screen and (max-width:600px) {
 
+.grid-container { propiedad: valor;}
+.grid-item {...}
 
-//MQ Tablet
-// @media only screen and (min-width: 768px) {header, main, footer...}
+/* .flexbox-container {...}
+.flexbox-item {...}
 
+h1 {...}
+p {...}
+a {...}
 
-//MQ Desktop
-// @media only screen and (min-width: 1200px) {header, main, footer...}
+img {...}
+etc. a {...} */
+
+}
+
+/* Media Queries TABLET
+@media only screen and (min-width: 600px) {
+
+.grid-container {...}
+.grid-item {...}
+.flexbox-container {...}
+.flexbox-item {...}
+
+h1 {...}
+p {...}
+a {...}
+
+img {...}
+etc. a {...}
+
+} */
+
+/* Media Queries DESKTOP 
+@media only screen and (min-width: 1200px) {
+
+.grid-container {...}
+.grid-item {...}
+.flexbox-container {...}
+.flexbox-item {...}
+
+h1 {...}
+p {...}
+a {...}
+
+img {...}
+etc. a {...}
+
+} */
