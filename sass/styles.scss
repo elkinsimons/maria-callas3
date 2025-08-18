@@ -1,16 +1,15 @@
 /* reset */
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@import "variables/variables";
+/* @import "variables/variables";
 @import "variables/listas";
-@import "variables/mixin";
+@import "variables/mixin"; */
 
-// BODY //
+// BODY
 
 .grid-container{
   @include grid-body
@@ -18,7 +17,7 @@
   
 /* Header (grid-item)*/
 
-.grid-header {
+.grid-header{
 
   div.flexbox-container{
     display: flex;
@@ -161,5 +160,3 @@
     text-decoration: none;
   }
 }
-
- //
